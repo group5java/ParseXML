@@ -1,0 +1,318 @@
+<feed xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns2="http://jvn.jp/rss/mod_sec/3.0/" xmlns:ns3="http://data-marking.mitre.org/Marking-1" xmlns:ns4="http://jvndb.jvn.jp/myjvn/Status" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2005/Atom https://jvndb.jvn.jp/schema/atom.xsd http://jvn.jp/rss/mod_sec/3.0/ https://jvndb.jvn.jp/schema/mod_sec_3.0.xsd http://data-marking.mitre.org/extensions/MarkingStructure#TLP-1 https://jvndb.jvn.jp/schema/tlp_marking.xsd http://jvndb.jvn.jp/myjvn/Status https://jvndb.jvn.jp/schema/status_3.3.xsd" xml:lang="ja">
+    <title type="text">IPA&#27880;&#24847;&#35686;&#25106;&#12469;&#12540;&#12499;&#12473;API</title>
+    <updated>2022-02-14T01:09:38+09:00</updated>
+    <id>swid:ipa.go.jp+myjvn_alert+1.0.0</id>
+    <link rel="alternate" type="text/html" hreflang="ja" href="https://jvndb.jvn.jp/apis/myjvn/" />
+    <author>
+      <name>IPA</name>
+      <uri>https://www.ipa.go.jp/</uri>
+    </author>
+    <handling>
+      <Marking>
+        <Marking_Structure xsi:type="tlpMarking:TLPMarkingStructureType" marking_model_name="TLP" marking_model_ref="http://www.us-cert.gov/tlp/" color="WHITE" />
+      </Marking>
+    </handling>
+    <entry>
+      <title>Apache Struts &#12395;&#38306;&#12377;&#12427;&#12475;&#12461;&#12517;&#12522;&#12486;&#12451;&#24773;&#22577; (2022&#24180;1&#26376;4&#26085; &#20844;&#38283;)</title>
+      <id>MYJVN-ALT-2022-0001</id>
+      <published>2022-01-04T10:07:07+09:00</published>
+      <updated>2022-01-04T10:07:07+09:00</updated>
+      <category label="INFO" term="Info" />
+      <items>
+        <item>
+          <title>02 January 2022 - Struts 2.5.28.3 General Availability</title>
+          <identifier>MYJVN-ALT-2022-0001-0001</identifier>
+          <link href="https://struts.apache.org/announce-2022#a20220102" />
+          <cpe>cpe:/a:apache:struts</cpe>
+          <published>2022-01-04T00:00:00+09:00</published>
+          <updated>2022-01-04T10:07:07+09:00</updated>
+        </item>
+        <item>
+          <title>Download a Release of Apache Struts (2.5.28.3)</title>
+          <identifier>MYJVN-ALT-2022-0001-0002</identifier>
+          <link href="https://struts.apache.org/download.cgi#struts-ga" />
+          <published>2022-01-04T00:00:00+09:00</published>
+          <updated>2022-01-04T10:07:07+09:00</updated>
+        </item>
+      </items>
+    </entry>
+    <entry>
+      <title>WordPress &#12395;&#38306;&#12377;&#12427;&#12475;&#12461;&#12517;&#12522;&#12486;&#12451;&#24773;&#22577; (2022&#24180;1&#26376;7&#26085; &#20844;&#38283;)</title>
+      <id>MYJVN-ALT-2022-0002</id>
+      <published>2022-01-07T09:51:37+09:00</published>
+      <updated>2022-01-07T09:51:37+09:00</updated>
+      <category label="INFO" term="Info" />
+      <items>
+        <item>
+          <title>Download WordPress (5.8.3)</title>
+          <identifier>MYJVN-ALT-2022-0002-0001</identifier>
+          <link href="https://wordpress.org/download/" />
+          <cpe>cpe:/a:wordpress:wordpress</cpe>
+          <published>2022-01-07T00:00:00+09:00</published>
+          <updated>2022-01-07T09:51:37+09:00</updated>
+        </item>
+        <item>
+          <title>WordPress 5.8.3 Security and Maintenance Release</title>
+          <identifier>MYJVN-ALT-2022-0002-0002</identifier>
+          <link href="https://wordpress.org/news/2022/01/wordpress-5-8-3-security-release/" />
+          <published>2022-01-07T00:00:00+09:00</published>
+          <updated>2022-01-07T09:51:37+09:00</updated>
+        </item>
+      </items>
+    </entry>
+    <entry>
+      <title>Adobe Reader &#12362;&#12424;&#12403; Acrobat &#12395;&#38306;&#12377;&#12427;&#12475;&#12461;&#12517;&#12522;&#12486;&#12451;&#24773;&#22577; (2022&#24180;1&#26376;12&#26085; &#20844;&#38283;)</title>
+      <id>MYJVN-ALT-2022-0004</id>
+      <published>2022-01-12T12:12:59+09:00</published>
+      <updated>2022-01-12T12:12:59+09:00</updated>
+      <category label="&#27880;&#24847;" term="Low" />
+      <items>
+        <item>
+          <title>Adobe Acrobat &#12362;&#12424;&#12403; Reader &#12398;&#33030;&#24369;&#24615;&#23550;&#31574;&#12395;&#12388;&#12356;&#12390;(APSB22-01)(CVE-2021-44701&#31561;)</title>
+          <identifier>MYJVN-ALT-2022-0004-0001</identifier>
+          <link href="https://www.ipa.go.jp/security/ciadr/vul/20220112-adobereader.html" />
+          <published>2022-01-12T00:00:00+09:00</published>
+          <updated>2022-01-12T12:12:59+09:00</updated>
+        </item>
+        <item>
+          <title>Security update available for Adobe Acrobat and Reader  | APSB22-01</title>
+          <identifier>MYJVN-ALT-2022-0004-0002</identifier>
+          <link href="https://helpx.adobe.com/security/products/acrobat/apsb22-01.html" />
+          <published>2022-01-12T00:00:00+09:00</published>
+          <updated>2022-01-12T12:12:59+09:00</updated>
+        </item>
+      </items>
+    </entry>
+    <entry>
+      <title>Microsoft &#35069;&#21697;&#12395;&#38306;&#12377;&#12427;&#12475;&#12461;&#12517;&#12522;&#12486;&#12451;&#24773;&#22577; (2022&#24180;1&#26376;12&#26085; &#20844;&#38283;)</title>
+      <id>MYJVN-ALT-2022-0003</id>
+      <published>2022-01-12T12:11:45+09:00</published>
+      <updated>2022-01-12T12:11:45+09:00</updated>
+      <category label="&#27880;&#24847;" term="Low" />
+      <items>
+        <item>
+          <title>Microsoft &#35069;&#21697;&#12398;&#33030;&#24369;&#24615;&#23550;&#31574;&#12395;&#12388;&#12356;&#12390;(2022&#24180;1&#26376;)</title>
+          <identifier>MYJVN-ALT-2022-0003-0001</identifier>
+          <link href="https://www.ipa.go.jp/security/ciadr/vul/20220112-ms.html" />
+          <published>2022-01-12T00:00:00+09:00</published>
+          <updated>2022-01-12T12:11:45+09:00</updated>
+        </item>
+        <item>
+          <title>2022 &#24180; 1 &#26376;&#12398;&#12475;&#12461;&#12517;&#12522;&#12486;&#12451;&#26356;&#26032;&#12503;&#12525;&#12464;&#12521;&#12512; (&#26376;&#20363;)</title>
+          <identifier>MYJVN-ALT-2022-0003-0002</identifier>
+          <link href="https://msrc-blog.microsoft.com/2022/01/11/202201-security-updates/" />
+          <published>2022-01-12T00:00:00+09:00</published>
+          <updated>2022-01-12T12:11:45+09:00</updated>
+        </item>
+      </items>
+    </entry>
+    <entry>
+      <title>Joomla! &#12395;&#38306;&#12377;&#12427;&#12477;&#12501;&#12488;&#12454;&#12455;&#12450;&#26356;&#26032;&#24773;&#22577; (2022&#24180;1&#26376;19&#26085; &#20844;&#38283;)</title>
+      <id>MYJVN-ALT-2022-0005</id>
+      <published>2022-01-19T10:01:37+09:00</published>
+      <updated>2022-01-19T10:01:37+09:00</updated>
+      <category label="INFO" term="Info" />
+      <items>
+        <item>
+          <title>Joomla! Downloads (3.10.5)</title>
+          <identifier>MYJVN-ALT-2022-0005-0001</identifier>
+          <link href="https://downloads.joomla.org/ja/cms/joomla3/3-10-5" />
+          <cpe>cpe:/a:joomla:joomla%21</cpe>
+          <published>2022-01-19T00:00:00+09:00</published>
+          <updated>2022-01-19T10:01:37+09:00</updated>
+        </item>
+        <item>
+          <title>Joomla! Downloads (4.0.6)</title>
+          <identifier>MYJVN-ALT-2022-0005-0002</identifier>
+          <link href="https://downloads.joomla.org/ja/cms/joomla4/4-0-6" />
+          <published>2022-01-19T00:00:00+09:00</published>
+          <updated>2022-01-19T10:01:37+09:00</updated>
+        </item>
+      </items>
+    </entry>
+    <entry>
+      <title>Oracle Java &#12395;&#38306;&#12377;&#12427;&#12475;&#12461;&#12517;&#12522;&#12486;&#12451;&#24773;&#22577; (2022&#24180;1&#26376;19&#26085; &#20844;&#38283;)</title>
+      <id>MYJVN-ALT-2022-0006</id>
+      <published>2022-01-19T12:11:22+09:00</published>
+      <updated>2022-01-19T12:11:22+09:00</updated>
+      <category label="&#27880;&#24847;" term="Low" />
+      <items>
+        <item>
+          <title>Oracle Java &#12398;&#33030;&#24369;&#24615;&#23550;&#31574;&#12395;&#12388;&#12356;&#12390;(CVE-2022-21349&#31561;)</title>
+          <identifier>MYJVN-ALT-2022-0006-0001</identifier>
+          <link href="https://www.ipa.go.jp/security/ciadr/vul/20220119-jre.html" />
+          <published>2022-01-19T00:00:00+09:00</published>
+          <updated>2022-01-19T12:11:22+09:00</updated>
+        </item>
+        <item>
+          <title>Oracle Critical Patch Update Advisory - January 2022</title>
+          <identifier>MYJVN-ALT-2022-0006-0002</identifier>
+          <link href="https://www.oracle.com/security-alerts/cpujan2022.html#AppendixJAVA" />
+          <published>2022-01-19T00:00:00+09:00</published>
+          <updated>2022-01-19T12:11:22+09:00</updated>
+        </item>
+      </items>
+    </entry>
+    <entry>
+      <title>BIND &#12395;&#38306;&#12377;&#12427;&#12477;&#12501;&#12488;&#12454;&#12455;&#12450;&#26356;&#26032;&#24773;&#22577; (2022&#24180;1&#26376;20&#26085; &#20844;&#38283;)</title>
+      <id>MYJVN-ALT-2022-0007</id>
+      <published>2022-01-20T09:53:46+09:00</published>
+      <updated>2022-01-20T09:53:46+09:00</updated>
+      <category label="INFO" term="Info" />
+      <items>
+        <item>
+          <title>Downloads (9.16.25)</title>
+          <identifier>MYJVN-ALT-2022-0007-0001</identifier>
+          <link href="https://www.isc.org/downloads/" />
+          <cpe>cpe:/a:isc:bind</cpe>
+          <published>2022-01-20T00:00:00+09:00</published>
+          <updated>2022-01-20T09:53:46+09:00</updated>
+        </item>
+      </items>
+    </entry>
+    <entry>
+      <title>Apache Tomcat &#12395;&#38306;&#12377;&#12427;&#12475;&#12461;&#12517;&#12522;&#12486;&#12451;&#24773;&#22577; (2022&#24180;1&#26376;21&#26085; &#20844;&#38283;)</title>
+      <id>MYJVN-ALT-2022-0008</id>
+      <published>2022-01-27T10:27:17+09:00</published>
+      <updated>2022-01-27T10:27:17+09:00</updated>
+      <category label="INFO" term="Info" />
+      <items>
+        <item>
+          <title>Tomcat 9 Software Downloads (9.0.58)</title>
+          <identifier>MYJVN-ALT-2022-0008-0001</identifier>
+          <link href="https://tomcat.apache.org/download-90.cgi" />
+          <cpe>cpe:/a:apache:tomcat</cpe>
+          <published>2022-01-21T00:00:00+09:00</published>
+          <updated>2022-01-21T10:04:09+09:00</updated>
+        </item>
+        <item>
+          <title>Tomcat 10 Software Downloads (10.0.16)</title>
+          <identifier>MYJVN-ALT-2022-0008-0002</identifier>
+          <summary> </summary>
+          <link href="https://tomcat.apache.org/download-10.cgi" />
+          <published>2022-01-21T00:00:00+09:00</published>
+          <updated>2022-01-21T10:04:09+09:00</updated>
+        </item>
+        <item>
+          <title>Tomcat 8 Software Downloads (8.5.75)</title>
+          <identifier>MYJVN-ALT-2022-0008-0003</identifier>
+          <link href="https://tomcat.apache.org/download-80.cgi" />
+          <published>2022-01-21T00:00:00+09:00</published>
+          <updated>2022-01-21T10:04:09+09:00</updated>
+        </item>
+        <item>
+          <title>Fixed in Apache Tomcat 10.0.16</title>
+          <identifier>MYJVN-ALT-2022-0008-0004</identifier>
+          <link href="https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.0.16" />
+          <published>2022-01-27T00:00:00+09:00</published>
+          <updated>2022-01-27T10:27:17+09:00</updated>
+        </item>
+        <item>
+          <title>Fixed in Apache Tomcat 9.0.58</title>
+          <identifier>MYJVN-ALT-2022-0008-0005</identifier>
+          <link href="https://tomcat.apache.org/security-9.html#Fixed_in_Apache_Tomcat_9.0.58" />
+          <published>2022-01-27T00:00:00+09:00</published>
+          <updated>2022-01-27T10:27:17+09:00</updated>
+        </item>
+        <item>
+          <title>Fixed in Apache Tomcat 8.5.75</title>
+          <identifier>MYJVN-ALT-2022-0008-0006</identifier>
+          <link href="https://tomcat.apache.org/security-8.html#Fixed_in_Apache_Tomcat_8.5.75" />
+          <published>2022-01-27T00:00:00+09:00</published>
+          <updated>2022-01-27T10:27:17+09:00</updated>
+        </item>
+      </items>
+    </entry>
+    <entry>
+      <title>Apache Struts &#12395;&#38306;&#12377;&#12427;&#12477;&#12501;&#12488;&#12454;&#12455;&#12450;&#26356;&#26032;&#24773;&#22577; (2022&#24180;1&#26376;24&#26085; &#20844;&#38283;)</title>
+      <id>MYJVN-ALT-2022-0009</id>
+      <published>2022-01-24T10:18:16+09:00</published>
+      <updated>2022-01-24T10:18:16+09:00</updated>
+      <category label="INFO" term="Info" />
+      <items>
+        <item>
+          <title>Download a Release of Apache Struts (2.5.29)</title>
+          <identifier>MYJVN-ALT-2022-0009-0001</identifier>
+          <link href="https://struts.apache.org/download.cgi#struts-ga" />
+          <cpe>cpe:/a:apache:struts</cpe>
+          <published>2022-01-24T00:00:00+09:00</published>
+          <updated>2022-01-24T10:18:16+09:00</updated>
+        </item>
+      </items>
+    </entry>
+    <entry>
+      <title>WordPress &#12395;&#38306;&#12377;&#12427;&#12477;&#12501;&#12488;&#12454;&#12455;&#12450;&#26356;&#26032;&#24773;&#22577; (2022&#24180;1&#26376;26&#26085; &#20844;&#38283;)</title>
+      <id>MYJVN-ALT-2022-0010</id>
+      <published>2022-01-26T09:58:45+09:00</published>
+      <updated>2022-01-26T09:58:45+09:00</updated>
+      <category label="INFO" term="Info" />
+      <items>
+        <item>
+          <title>Download WordPress (5.9)</title>
+          <identifier>MYJVN-ALT-2022-0010-0001</identifier>
+          <link href="https://wordpress.org/download/" />
+          <cpe>cpe:/a:wordpress:wordpress</cpe>
+          <published>2022-01-26T00:00:00+09:00</published>
+          <updated>2022-01-26T09:58:45+09:00</updated>
+        </item>
+      </items>
+    </entry>
+    <entry>
+      <title>BIND &#12395;&#38306;&#12377;&#12427;&#12477;&#12501;&#12488;&#12454;&#12455;&#12450;&#26356;&#26032;&#24773;&#22577; (2022&#24180;1&#26376;27&#26085; &#20844;&#38283;)</title>
+      <id>MYJVN-ALT-2022-0011</id>
+      <published>2022-01-27T10:19:19+09:00</published>
+      <updated>2022-01-27T10:19:19+09:00</updated>
+      <category label="INFO" term="Info" />
+      <items>
+        <item>
+          <title>Downloads (9.18.0)</title>
+          <identifier>MYJVN-ALT-2022-0011-0001</identifier>
+          <link href="https://www.isc.org/downloads/" />
+          <cpe>cpe:/a:isc:bind</cpe>
+          <published>2022-01-27T00:00:00+09:00</published>
+          <updated>2022-01-27T10:19:19+09:00</updated>
+        </item>
+      </items>
+    </entry>
+    <entry>
+      <title>OpenSSL &#12395;&#38306;&#12377;&#12427;&#12475;&#12461;&#12517;&#12522;&#12486;&#12451;&#24773;&#22577; (2022&#24180;1&#26376;31&#26085; &#20844;&#38283;)</title>
+      <id>MYJVN-ALT-2022-0012</id>
+      <published>2022-01-31T09:55:41+09:00</published>
+      <updated>2022-01-31T09:55:41+09:00</updated>
+      <category label="INFO" term="Info" />
+      <items>
+        <item>
+          <title>OpenSSL Security Advisory [28 January 2022]</title>
+          <identifier>MYJVN-ALT-2022-0012-0001</identifier>
+          <link href="https://www.openssl.org/news/secadv/20220128.txt" />
+          <cpe>cpe:/a:openssl:openssl</cpe>
+          <published>2022-01-31T00:00:00+09:00</published>
+          <updated>2022-01-31T09:55:41+09:00</updated>
+        </item>
+      </items>
+    </entry>
+    <entry>
+      <title>Microsoft &#35069;&#21697;&#12395;&#38306;&#12377;&#12427;&#12475;&#12461;&#12517;&#12522;&#12486;&#12451;&#24773;&#22577; (2022&#24180;2&#26376;9&#26085; &#20844;&#38283;)</title>
+      <id>MYJVN-ALT-2022-0013</id>
+      <published>2022-02-09T12:20:31+09:00</published>
+      <updated>2022-02-09T12:20:31+09:00</updated>
+      <category label="&#27880;&#24847;" term="Low" />
+      <items>
+        <item>
+          <title>Microsoft &#35069;&#21697;&#12398;&#33030;&#24369;&#24615;&#23550;&#31574;&#12395;&#12388;&#12356;&#12390;(2022&#24180;2&#26376;)</title>
+          <identifier>MYJVN-ALT-2022-0013-0001</identifier>
+          <link href="https://www.ipa.go.jp/security/ciadr/vul/20220209-ms.html" />
+          <published>2022-02-09T00:00:00+09:00</published>
+          <updated>2022-02-09T12:20:31+09:00</updated>
+        </item>
+        <item>
+          <title>2022 &#24180; 2 &#26376;&#12398;&#12475;&#12461;&#12517;&#12522;&#12486;&#12451;&#26356;&#26032;&#12503;&#12525;&#12464;&#12521;&#12512; (&#26376;&#20363;)</title>
+          <identifier>MYJVN-ALT-2022-0013-0002</identifier>
+          <link href="https://msrc-blog.microsoft.com/2022/02/08/202202-security-updates/" />
+          <published>2022-02-09T00:00:00+09:00</published>
+          <updated>2022-02-09T12:20:31+09:00</updated>
+        </item>
+      </items>
+    </entry>
+    <Status version="3.3" method="getAlertList" retCd="0" retMax="50" errCd="" errMsg="" totalRes="13" totalResRet="13" firstRes="1" feed="hnd" />
+  </feed>
