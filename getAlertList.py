@@ -9,11 +9,11 @@ import csv
 response = requests.get("https://jvndb.jvn.jp/myjvn?method=getAlertList&feed=hnd")
 root = ET.fromstring(response.text)
 tree = ET.ElementTree(root)
-tree.write("data.xml")
+tree.write("data_alert.xml")
 print('Get API to XML successfully')
 
-fixedFile = open("data_fixed.xml",'w', encoding='utf8')
-with open('data.xml') as file:
+fixedFile = open("data_alert_fixed.xml",'w', encoding='utf8')
+with open('data_alert.xml') as file:
     for line in file:
             line = line.replace("ns0:", "")
             line = line.replace("ns1:", "")
@@ -32,7 +32,7 @@ csvfile_writer_1 = csv.writer(csvfile_1)
 csvfile_writer_1.writerow(["title","id","published","updated"])
 
 # Parsing XML to CSV
-xml = ElementTree.parse("data_fixed.xml")
+xml = ElementTree.parse("data_alert_fixed.xml")
 root = xml.getroot()
 
 titleArray=[]
@@ -85,13 +85,12 @@ for i in range(len(title)):
       csv_line = [titleArray[i], idArray[i], publishedArray[i], updatedArray[i]]
       csvfile_writer_1.writerow(csv_line)
 
-print(len(linkItemArray))
 csvfile_1.close()
 
 csvfile_2 = open("alert_list_item.csv",'w', encoding='utf8', newline="")
 csvfile_writer_2 = csv.writer(csvfile_2)
 
-csvfile_writer_2.writerow(["title","identifier","link","published", "updated"])
+csvfile_writer_2.writerow(["title","identifier", "link", "published", "updated"])
 
 for i in range(len(titleItem)):
       csv_line = [titleItemArray[i], idItemArray[i], linkItemArray[i], publishedItemArray[i], updatedItemArray[i]]
