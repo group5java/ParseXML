@@ -20,7 +20,7 @@ csvfile_1 = open("alert_list.csv",'w', encoding='utf8', newline="")
 csvfile_writer_1 = csv.writer(csvfile_1)
 
 # ADD THE HEADER TO CSV FILE
-csvfile_writer_1.writerow(["title", "id", "title-item","id-item", "link-item", "cpe-item", "published-item", "updated-item"])
+csvfile_writer_1.writerow(["title", "id", "title-item","id-item", "link-item", "cpe-item", "cve-item", "published-item", "updated-item"])
 
 # Get XML from API
 for year in range (startYear, endYear):
@@ -56,15 +56,28 @@ for year in range (startYear, endYear):
             currentTitleItem = item.find("title").text
             currentIdItem = item.find("identifier").text
             currentLinkItem = item.find("link").attrib['href']
+
             if(str(item.find("cpe")) != 'None'):
                 currentCpeItem = item.find("cpe").text
             else: 
                 currentCpeItem = "-"
 
+            if(currentTitleItem.find("CVE") != -1):
+                if(len(currentTitleItem) - currentTitleItem.find("CVE") <=13):
+                    currentCveItem = currentTitleItem[currentTitleItem.find("CVE"):]
+                else:
+                    tempCve = currentTitleItem[currentTitleItem.find("CVE") + 13]
+                    if(tempCve.isnumeric()):
+                        currentCveItem = currentTitleItem[currentTitleItem.find("CVE"):currentTitleItem.find("CVE")+14]
+                    else:
+                        currentCveItem = currentTitleItem[currentTitleItem.find("CVE"):currentTitleItem.find("CVE")+13]
+            else:
+                currentCveItem = "-"
+                
             currentPublishedItem = item.find("published").text
             currentUpdatedItem = item.find("updated").text
 
-            currentCsvLine = [currentTitle, currentId, currentTitleItem, currentIdItem, currentLinkItem, currentCpeItem, currentPublishedItem, currentUpdatedItem]
+            currentCsvLine = [currentTitle, currentId, currentTitleItem, currentIdItem, currentLinkItem, currentCpeItem, currentCveItem, currentPublishedItem, currentUpdatedItem]
             csvfile_writer_1.writerow(currentCsvLine)
 
     print('csv parsed in ' + str(year) + ' successfully')
